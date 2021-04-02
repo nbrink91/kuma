@@ -67,7 +67,8 @@ controlPlane:
     type: ClusterIP
 
     # -- Additional annotations to put on the Kuma Control Plane
-    annotations: {}
+    annotations:
+      somekey: somevalue
 
   # -- URL of Global Kuma CP
   globalRemoteSyncService:
